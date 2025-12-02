@@ -29,7 +29,7 @@ object DayOne extends App {
       )
     }
 
-    //i hate this code... 
+    //i hate this code...
     private def zeros(oP: Int, nP: Int, amount: Int): Int = {
       if (amount == 0) return 0
       val steps = Math.abs(amount)
